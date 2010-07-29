@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "npa_lookup"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "NPA|Nxx Lookup command line tool for CloudVox's Digits.cloundvox.com API"
+    gem.description = "NPA|Nxx Lookup command line tool for CloudVox's Digits.cloundvox.com API"
     gem.email = "john@krumpt.com"
     gem.homepage = "http://github.com/krumpt/npa_lookup"
     gem.authors = ["John Dyer"]
