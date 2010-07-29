@@ -29,7 +29,6 @@ Gem::Specification.new do |s|
      "VERSION",
      "bin/lookup",
      "lib/npa_lookup.rb",
-     "npa_lookup-0.2.0.gem",
      "npa_lookup.gemspec",
      "spec/npa_lookup_spec.rb",
      "spec/spec.opts",
