@@ -12,8 +12,8 @@ begin
     gem.authors = ["John Dyer"]
     gem.add_dependency "json", ">= 1.2.9"
     gem.add_dependency "json", ">= 1.2.9"
-    gem.add_dependency "terminal-table"
-
+    gem.add_dependency "terminal-table", ">= 1.4"
+    gem.requirements << 'terminal-table, v1.4.3 or greater'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
