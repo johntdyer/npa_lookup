@@ -6,6 +6,9 @@
 ## Installation
     sudo gem install npa_lookup
 
+## Install location 
+    /bin
+	
 ## Usage
     lookup [number]
 
