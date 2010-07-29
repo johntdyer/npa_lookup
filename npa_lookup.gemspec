@@ -5,18 +5,20 @@
 
 Gem::Specification.new do |s|
   s.name = %q{npa_lookup}
-  s.version = "0.1.0"
+  s.version = "0.2.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["John Dyer"]
-  s.date = %q{2010-07-28}
-  s.description = "NPA|Nxx Lookup command line tool for CloudVox's Digits.cloundvox.com API"
+  s.date = %q{2010-07-29}
+  s.default_executable = %q{lookup}
+  s.description = %q{NPA|Nxx Lookup command line tool for CloudVox's Digits.cloundvox.com API}
   s.email = %q{john@krumpt.com}
+  s.executables = ["lookup"]
   s.extra_rdoc_files = [
     "LICENSE",
+     "README.markdown",
      "README.rdoc"
   ]
-  s.bindir = 'bin'
   s.files = [
     ".document",
      ".gitignore",
@@ -34,7 +36,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = "NPA|Nxx Lookup command line tool for CloudVox's Digits.cloundvox.com API"
+  s.summary = %q{NPA|Nxx Lookup command line tool for CloudVox's Digits.cloundvox.com API}
   s.test_files = [
     "spec/npa_lookup_spec.rb",
      "spec/spec_helper.rb"
