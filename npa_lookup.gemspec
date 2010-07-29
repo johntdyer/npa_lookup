@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/npa_lookup.rb",
+     "npa_lookup.gemspec",
      "spec/npa_lookup_spec.rb",
      "spec/spec.opts",
      "spec/spec_helper.rb"
